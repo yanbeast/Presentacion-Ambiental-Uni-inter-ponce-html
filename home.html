@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Nelson Yandel Rivera Martínez">
+  <meta name="keywords" content="deforestation, environment, biodiversity, climate, sustainability">
+  <meta name="description" content="Learn how deforestation affects our planet and how we can protect it.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Protect Our Planet</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f5f0;
+      color: #1b3d1f;
+    }
+
+    header {
+      background: #204620;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+      padding: 0;
+      margin: 0;
+      background: #326532;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: block;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      background: #4c8c4c;
+    }
+
+    .hero {
+      position: relative;
+      height: 600px;
+      background: url("vecteezy-tropical-forest.jpg") no-repeat center center/cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+    }
+
+    .hero h2 {
+      font-size: 4rem;
+      color: black;
+      -webkit-text-stroke: 2px white;
+      font-weight: 900;
+      margin: 0;
+    }
+
+    .hero p {
+      font-size: 1.5rem;
+      color: #fff;
+      text-shadow: 1px 1px 3px #000;
+    }
+
+    main {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    section {
+      background: white;
+      margin: 20px 0;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #2c4b2c;
+    }
+
+    .card-container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      flex: 1;
+      background: #e6f2e6;
+      border: 1px solid #c5dec8;
+      padding: 20px;
+      border-radius: 8px;
+      min-width: 250px;
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+      background-color: #d2ead2;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #204620;
+      color: #ccc;
+      margin-top: 40px;
+    }
+
+    form input, form textarea, form select {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    form button {
+      background: #2d6b2d;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background: #398a39;
+    }
+
+    a {
+      color: #bde5b8; 
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #d2fad2; 
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Protect Our Planet</h1>
+  <p>Keep clean and protect the only planet we got</p>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="causes.html">Causes</a></li>
+    <li><a href="effect.html">Effects</a></li>
+    <li><a href="risk.html">At risk</a></li>
+    <li><a href="solutions.html">Solutions</a></li>
+  </ul>
+</nav>
+
+<section class="hero" id="home">
+  <div>
+    <h2>A shared world</h2>
+    <p>Together we can make a difference</p>
+  </div>
+</section>
+
+<main>
+  <section id="about">
+    <h2>The Problem</h2>
+    <div class="card-container">
+      <article class="card">
+        <h3>Deforestation and Biodiversity Loss</h3>
+        <p>Deforestation—the clearing of forests for farming, logging, or development—is one of the leading causes of biodiversity loss. As forests are destroyed, countless species lose their natural habitats, pushing many toward extinction and disrupting entire ecosystems.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="effects">
+    <h2>How Deforestation Affects Us</h2>
+    <div class="card-container">
+      <article class="card">
+        <h3>Climate Instability</h3>
+        <p>Trees absorb carbon dioxide. Without them, greenhouse gases rise, intensifying global warming and causing extreme weather.</p>
+      </article>
+      <article class="card">
+        <h3>Health Consequences</h3>
+        <p>Air quality suffers as trees vanish. Additionally, displaced wildlife can spread new diseases to human populations.</p>
+      </article>
+      <article class="card">
+        <h3>Water Crisis</h3>
+        <p>Forests regulate rainfall. Deforestation can lead to droughts, floods, and water contamination, impacting communities worldwide.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="report">
+    <h2>Report Environmental Harm</h2>
+    <p>If you've seen illegal logging, habitat destruction, or other environmental damage, let us know. Your voice helps raise awareness and protect our ecosystems.</p>
+    <form action="#" method="post">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <select name="issue" required>
+        <option value="">Select an Issue</option>
+        <option value="logging">Illegal Logging</option>
+        <option value="pollution">Forest Pollution</option>
+        <option value="wildlife">Wildlife Displacement</option>
+        <option value="other">Other</option>
+      </select>
+      <textarea name="message" rows="5" placeholder="Describe what you witnessed..." required></textarea>
+      <button type="submit">Submit Report</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>For those who share our vision to protect the planet, contact us with any issues at 
+    <a href="mailto:planetprotect0@gmail.com">Protect Our Planet</a>.
+  </p>
+  <p>
+    Activists or groups that share the same views:
+    <a href="https://www.facebook.com/groups/environment.activist/?ref=share&mibextid=NSMWBT"><i class="fab fa-facebook"></i></a>
+    <a href="https://x.com/gretathunberg?lang=en"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.instagram.com/thezerowasteguide/"><i class="fab fa-instagram"></i></a>
+  </p>
+  <p>&copy; 2025 Nelson Yandel Rivera Martínez. All rights reserved.</p>
+  <p>Universidad InterAmericana de Puerto Rico, Recinto de Ponce</p>
+</footer>
+
+</body>
+</html>
